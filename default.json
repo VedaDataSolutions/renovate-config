@@ -3,10 +3,5 @@
     "config:base",
     "group:allNonMajor",
     "group:recommended"
-  ],
-  "packageRules": [
-    {
-      "excludePackagePatterns": ["^@veda"]
-    }
   ]
 }
