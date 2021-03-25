@@ -3,5 +3,15 @@
     "config:base",
     "group:allNonMajor",
     "group:recommended"
+  ],
+  "packageRules": [
+    {
+      "matchPackageNames": ["@veda-cdk"],
+      "enable": true
+    },
+    {
+      "matchPackageNames": ["*"],
+      "enable": false
+    }
   ]
 }
