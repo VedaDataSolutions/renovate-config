@@ -1,0 +1,8 @@
+{
+  "packageRules": [
+    {
+      "excludePackagePatterns": ["^@veda-cdk"],
+      "enabled": false
+    }
+  ]
+}
