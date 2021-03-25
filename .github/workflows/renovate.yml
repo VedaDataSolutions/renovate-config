@@ -26,5 +26,6 @@ jobs:
         env:
           RENOVATE_TOKEN: ${{ secrets.RENOVATE_TOKEN }}
           AWS_INFRA_ACCOUNT: ${{ secrets.INFRA_AWS_ACCOUNT }}
+          LOG_LEVEL: DEBUG
         run:
           renovate --platform github --require-config false --onboarding true --print-config true VedaDataSolutions/aws-management
