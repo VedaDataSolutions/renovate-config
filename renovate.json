@@ -7,11 +7,11 @@
   "packageRules": [
     {
       "matchPackageNames": ["@veda-cdk"],
-      "enable": true
+      "enabled": true
     },
     {
       "matchPackageNames": ["*"],
-      "enable": false
+      "enabled": false
     }
   ]
 }
