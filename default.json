@@ -3,6 +3,11 @@
     {
       "excludePackagePatterns": ["^@veda-cdk"],
       "enabled": false
+    },
+    {
+      "matchPackagePatterns": ["^@veda-cdk"],
+      "matchUpdateTypes": ["patch", "minor"],
+      "groupName": "veda-cdk (non-major)"
     }
   ]
 }
